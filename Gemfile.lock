@@ -1,40 +1,43 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    connection_pool (2.2.2)
-    domain_name (0.5.20180417)
-      unf (>= 0.0.5, < 1.0.0)
-    http-cookie (1.0.3)
-      domain_name (~> 0.5)
-    mechanize (2.7.6)
-      domain_name (~> 0.5, >= 0.5.1)
-      http-cookie (~> 1.0)
-      mime-types (>= 1.17.2)
-      net-http-digest_auth (~> 1.1, >= 1.1.1)
-      net-http-persistent (>= 2.5.2)
-      nokogiri (~> 1.6)
-      ntlm-http (~> 0.1, >= 0.1.1)
-      webrobots (>= 0.0.9, < 0.2)
-    mime-types (3.2.2)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2018.0812)
+    addressable (2.6.0)
+      public_suffix (>= 2.0.2, < 4.0)
+    capybara (3.13.2)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (~> 1.2)
+      xpath (~> 3.2)
+    childprocess (0.9.0)
+      ffi (~> 1.0, >= 1.0.11)
+    dotenv (2.6.0)
+    ffi (1.10.0)
+    mini_mime (1.0.1)
     mini_portile2 (2.4.0)
-    net-http-digest_auth (1.4.1)
-    net-http-persistent (3.0.0)
-      connection_pool (~> 2.2)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
-    ntlm-http (0.1.1)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.5)
-    webrobots (0.1.2)
+    public_suffix (3.0.3)
+    rack (2.0.6)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    regexp_parser (1.3.0)
+    rubyzip (1.2.2)
+    selenium-webdriver (3.141.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.2, >= 1.2.2)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  mechanize
+  capybara
+  dotenv
+  selenium-webdriver
 
 BUNDLED WITH
    1.16.3

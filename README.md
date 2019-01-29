@@ -2,6 +2,8 @@
 
 Automate me some Strava. For example, give kudos to everyone you follow. We'll click those buttons for you.
 
+![](img/strava-kudos.gif)
+
 ### Usage
 
 Create a `.env` file with the following contents.

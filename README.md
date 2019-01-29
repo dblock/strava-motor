@@ -20,6 +20,10 @@ bundle install
 bundle exec ruby kudo.rb
 ```
 
+### Disclaimer
+
+Since there's no API to give kudos, this could be possibly against Strava terms of use, but IANAL. Use at your own risk.
+
 ### License
 
 [MIT License](LICENSE.md)
